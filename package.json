@@ -1,0 +1,12 @@
+{
+    "name": "code-font",
+    "title": "Code Font",
+    "description": "This allows you to choose from a variety of the most popular Google Fonts for the code editor window",
+    "homepage": "https://github.com/tygoss/code-font",
+    "version": "1.0.0",
+    "author": "TyGoss",
+    "files": [
+        "main.js",
+        "fonts.css"
+    ]
+}
