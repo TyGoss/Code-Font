@@ -1,0 +1,44 @@
+.code-font-open-sans .CodeMirror{
+	font-family: 'Open Sans', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-roboto .CodeMirror{
+	font-family: 'Roboto', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-droid-sans .CodeMirror{
+	font-family: 'Droid Sans', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-lato .CodeMirror{
+	font-family: 'Lato', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-droid-serif .CodeMirror{
+	font-family: 'Droid Serif', serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-ubuntu .CodeMirror{
+	font-family: 'Ubuntu', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-raleway .CodeMirror{
+	font-family: 'Raleway', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-oxygen .CodeMirror{
+	font-family: 'Oxygen', sans-serif !important;
+	letter-spacing:1px;
+}
+
+.code-font-shadows-into-light .CodeMirror{
+	font-family: 'Shadows Into Light', sans-serif !important;
+	letter-spacing:1px;
+}
