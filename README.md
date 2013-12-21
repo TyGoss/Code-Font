@@ -1,4 +1,3 @@
-Code Font
-=========
+# Fonts
 
-Code Font is an extension for the text editor Brackets that allows you to change the font of the coding window to a variety of popular Google Fonts.
+This is an extension for the code editor [Brackets](http://brackets.io/). The extension allows you to change the font of the editor by choosing from a selection of fonts from Google Fonts.

@@ -1,12 +1,17 @@
 {
-    "name": "code-font",
-    "title": "Code Font",
-    "description": "This allows you to choose from a variety of the most popular Google Fonts for the code editor window",
-    "homepage": "https://github.com/tygoss/code-font",
-    "version": "1.0.0",
-    "author": "TyGoss",
+    "name": "brackets-fonts",
+    "title": "Fonts",
+    "description": "The extension allows you to change the font of the editor by choosing from a selection of fonts from Google Fonts.",
+    "homepage": "https://github.com/tirithen/brackets-fonts",
+    "version": "0.0.2",
+    "license": "MIT",
+    "author": "tirithen",
     "files": [
-        "main.js",
-        "fonts.css"
+        "main.js"
+    ],
+    "categories": "visual",
+    "keywords": [
+        "font",
+        "visual"
     ]
 }
