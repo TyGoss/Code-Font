@@ -15,7 +15,7 @@ define(function (require, exports, module) {
 		menu = Menus.addMenu("Font", "code-font", Menus.AFTER, Menus.AppMenuBar.VIEW_MENU);
 	
 	// the array of fonts
-	var fonts = [["code-font.default","Default"],["code-font.open-sans","Open Sans"],["code-font.roboto","Roboto"],["code-font.droid-sans","Droid Sans"],["code-font.lato","Lato"],["code-font.droid-serif","Droid Serif"],["code-font.ubuntu","Ubuntu"],["code-font.raleway","Raleway"],["code-font.oxygen","Oxygen"],["code-font.shadows-into-light","Shadows Into Light"]];
+	var fonts = [["code-font.default","Default"],["code-font.open-sans","Open Sans"],["code-font.roboto","Roboto"],["code-font.droid-sans","Droid Sans"],["code-font.lato","Lato"],["code-font.droid-serif","Droid Serif"],["code-font.ubuntu","Ubuntu"],["code-font.raleway","Raleway"],["code-font.oxygen","Oxygen"],["code-font.shadows-into-light","Shadows Into Light"],["code-font.montserrat","Montserrat"]];
 
 	// function that changes the font, the font name to change to is passed to the function
 	function changeFont(font){
@@ -60,6 +60,11 @@ define(function (require, exports, module) {
 			$('body').append("<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>");
 			$("#editor-holder").addClass("code-font-shadows-into-light");
 		}
+			else if(font === fonts[10][1]){
+			$('body').append("<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-shadows-montserrat");
+		}
+		
 	}	
 	
 	//get the current saved font
