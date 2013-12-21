@@ -8,6 +8,11 @@
 	letter-spacing:1px;
 }
 
+.code-font-montserrat .CodeMirror{
+	font-family: 'Montserrat', sans-serif !important;
+	letter-spacing:1px;
+}
+
 .code-font-droid-sans .CodeMirror{
 	font-family: 'Droid Sans', sans-serif !important;
 	letter-spacing:1px;
