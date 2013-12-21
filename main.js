@@ -60,6 +60,11 @@ define(function (require, exports, module) {
 			$('body').append("<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>");
 			$("#editor-holder").addClass("code-font-shadows-into-light");
 		}
+			else if(font === fonts[10][1]){
+			$('body').append("<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-shadows-montserrat");
+		}
+		
 	}	
 	
 	//get the current saved font
