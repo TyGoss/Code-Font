@@ -15,7 +15,7 @@ define(function (require, exports, module) {
 		menu = Menus.addMenu("Font", "code-font", Menus.AFTER, Menus.AppMenuBar.VIEW_MENU);
 	
 	// the array of fonts
-	var fonts = [["code-font.default","Default"],["code-font.open-sans","Open Sans"],["code-font.roboto","Roboto"],["code-font.droid-sans","Droid Sans"],["code-font.lato","Lato"],["code-font.droid-serif","Droid Serif"],["code-font.ubuntu","Ubuntu"],["code-font.raleway","Raleway"],["code-font.oxygen","Oxygen"],["code-font.shadows-into-light","Shadows Into Light"]];
+	var fonts = [["code-font.default","Default"],["code-font.open-sans","Open Sans"],["code-font.roboto","Roboto"],["code-font.droid-sans","Droid Sans"],["code-font.lato","Lato"],["code-font.droid-serif","Droid Serif"],["code-font.ubuntu","Ubuntu"],["code-font.raleway","Raleway"],["code-font.oxygen","Oxygen"],["code-font.shadows-into-light","Shadows Into Light"],["code-font.droid-sans-mono","Droid Sans Mono"],["code-font.share-tech-mono","Share Tech Mono"],["code-font.nova-mono","Nova Mono"],["code-font.roboto-mono","Roboto Mono"],["code-font.oxygen-mono","Oxygen Mono"]];
 
 	// function that changes the font, the font name to change to is passed to the function
 	function changeFont(font){
@@ -60,6 +60,26 @@ define(function (require, exports, module) {
 			$('body').append("<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>");
 			$("#editor-holder").addClass("code-font-shadows-into-light");
 		}
+		else if(font === fonts[10][1]){
+			$('body').append("<link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-droid-sans-mono");
+		}
+		else if(font === fonts[11][1]){
+			$('body').append("<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-share-tech-mono");
+		}
+		else if(font === fonts[12][1]){
+			$('body').append("<link href='https://fonts.googleapis.com/css?family=Nova+Mono'  rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-nova-mono");
+		}
+		else if(font === fonts[13][1]){
+			$('body').append("<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300'   rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-roboto-mono");
+		}	
+		else if(font === fonts[14][1]){
+			$('body').append("<link href='https://fonts.googleapis.com/css?family=Oxygen+Mono'   rel='stylesheet' type='text/css'>");
+			$("#editor-holder").addClass("code-font-oxygen-mono");
+		}		
 	}	
 	
 	//get the current saved font
